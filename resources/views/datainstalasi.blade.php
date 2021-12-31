@@ -108,7 +108,7 @@
                                     <tbody>
                                         <tr>
                                             <td>Tiger</td>
-                                            <td>Nixon</td>
+                                            <td>Singa</td>
                                             <td>System Architect</td>
                                             <td>Edinburgh</td>
                                             <td class="actions">

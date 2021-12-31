@@ -107,8 +107,8 @@
                                     </thead>
                                     <tbody>
                                         <tr>
-                                            <td>Tiger</td>
-                                            <td>Nixon</td>
+                                            <td>Hallo</td>
+                                            <td>HIHIHIHIHIHIHIH</td>
                                             <td>System Architect</td>
                                             <td>Edinburgh</td>
                                             <td class="actions">

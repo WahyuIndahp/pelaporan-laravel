@@ -109,7 +109,7 @@
                                         <tr>
                                             <td>Hallo</td>
                                             <td>HIHIHIHIHIHIHIH</td>
-                                            <td>System Architect</td>
+                                            <td>hahahahhahaha</td>
                                             <td>Edinburgh</td>
                                             <td class="actions">
                                                 <a href="" class="btn btn-icon waves-effect waves-light btn-success btn-xs m-b-5"> <i class="fa fa-pencil-square-o"></i> <span> Edit</span></a>

@@ -60,7 +60,7 @@
                             </button>
                         </li>
                         <li>
-                            <h4 class="page-title">DAFTAR DATA INSTALASI</h4>
+                            <h4 class="page-title">LAPORAN INSTALASI</h4>
                         </li>
                     </ul>
 
@@ -86,21 +86,16 @@
                     <div class="row">
                         <div class="col-sm-12">
                             <div class="card-box table-responsive">
-                                <div class="m-b-30">
-                                    <a href="/fuser"  type="button" class="btn btn-primary"><i class="fa fa-plus"> </i> Tambah
-                                        User</a>
-                                </div>
                                 <table id="datatable-responsive"
                                     class="table table-striped table-bordered dt-responsive nowrap" cellspacing="0"
                                     width="100%">
                                     <thead>
                                         <tr>
-                                            <th>Nama Pegawai</th>
-                                            <th>Kategori Pegawai</th>
-                                            <th>Nomor Telepon</th>
-                                            <th>ID Pegawai</th>
-                                            <th>Password</th>
-                                            <th>Status</th>
+                                            <th>Leader Teknisi</th>
+                                            <th>Nama Instansi</th>
+                                            <th>Anydesk ID</th>
+                                            <th>Tanggal Mulai Instalasi</th>
+                                            <th>Tanggal Selesai Instalasi</th>
                                             <th>Actions</th>
                                         </tr>
                                     </thead>
@@ -109,12 +104,10 @@
                                             <td>Tiger</td>
                                             <td>Nixon</td>
                                             <td>System Architect</td>
-                                            <td>Edinburgh</td>
-                                            <td>Nixon</td>
                                             <td>System Architect</td>
+                                            <td>Edinburgh</td>
                                             <td class="actions">
-                                                <a href="/eadmtr" class="btn btn-icon waves-effect waves-light btn-success btn-xs m-b-5"> <i class="fa fa-pencil-square-o"></i></a>
-                                                <a href="" class="btn btn-icon waves-effect waves-light btn-info btn-xs m-b-5"> <i class="fa fa-trash"></i></a>
+                                                <a href="/dlapin" class="btn btn-icon waves-effect waves-light btn-info btn-xs m-b-5"> <i class="fa fa-eye"></i> <span> Lihat Detail</span></a>
                                             </td>
                                         </tr>
                                     </tbody>

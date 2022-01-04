@@ -44,7 +44,7 @@
                     <h4 class="text-uppercase font-bold m-b-0">Sign In</h4>
                 </div>
                 <div class="panel-body m-t-20">
-                    <form class="form-horizontal m-t-20" action="{{ route('admtr') }}">
+                    <form class="form-horizontal m-t-20" action="/db">
 
                         <div class="form-group ">
                             <div class="col-xs-12">

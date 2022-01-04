@@ -16,10 +16,10 @@
         </div>
         <!-- End Notification bar -->
     </li>
-    <li class="hidden-xs">
+    <!--<li class="hidden-xs">
         <form role="search" class="app-search">
             <input type="text" placeholder="Search..." class="form-control">
             <a href=""><i class="fa fa-search"></i></a>
         </form>
-    </li>
+    </li>-->
 </ul>

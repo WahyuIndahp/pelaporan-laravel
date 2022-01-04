@@ -64,9 +64,6 @@
                         </li>
                     </ul>
 
-                    <!-- Right(Notification and Searchbox -->
-                        @include('fix.right')
-                    <!-- End Notification bar -->
                 </div><!-- end container -->
             </div><!-- end navbar -->
         </div>
@@ -113,7 +110,7 @@
                                             <td>System Architect</td>
                                             <td>Edinburgh</td>
                                             <td class="actions">
-                                                <a href="" class="btn btn-icon waves-effect waves-light btn-info btn-xs m-b-5"> <i class="fa fa-eye"></i> <span> Lihat Detail</span></a>
+                                                <a href="/dlapin" class="btn btn-icon waves-effect waves-light btn-info btn-xs m-b-5"> <i class="fa fa-eye"></i> <span> Lihat Detail</span></a>
                                             </td>
                                         </tr>
                                     </tbody>

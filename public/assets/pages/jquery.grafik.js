@@ -2,18 +2,18 @@
 /**
 * Theme: Adminto Admin Template
 * Author: Coderthemes
-* Dashboard
+* Grafik
 */
 
 !function($) {
     "use strict";
 
-    var Dashboard1 = function() {
+    var Grafik1 = function() {
     	this.$realData = []
     };
 
     //creates Bar chart
-    Dashboard1.prototype.createBarChart  = function(element, data, xkey, ykeys, labels, lineColors) {
+    Grafik1.prototype.createBarChart  = function(element, data, xkey, ykeys, labels, lineColors) {
         Morris.Bar({
             element: element,
             data: data,
@@ -30,7 +30,7 @@
     },
 
     //creates line chart
-    Dashboard1.prototype.createLineChart = function(element, data, xkey, ykeys, labels, opacity, Pfillcolor, Pstockcolor, lineColors) {
+    Grafik1.prototype.createLineChart = function(element, data, xkey, ykeys, labels, opacity, Pfillcolor, Pstockcolor, lineColors) {
         Morris.Line({
           element: element,
           data: data,
@@ -51,7 +51,7 @@
     },
 
     //creates Donut chart
-    Dashboard1.prototype.createDonutChart = function(element, data, colors) {
+    Grafik1.prototype.createDonutChart = function(element, data, colors) {
         Morris.Donut({
             element: element,
             data: data,
@@ -63,46 +63,32 @@
     },
     
     
-    Dashboard1.prototype.init = function() {
-
-        //creating bar chart
-        var $barData  = [
-            { y: '2010', a: 75 },
-            { y: '2011', a: 42 },
-            { y: '2012', a: 75 },
-            { y: '2013', a: 38 },
-            { y: '2014', a: 19 },
-            { y: '2015', a: 93 }
-        ];
-        this.createBarChart('morris-bar-example', $barData, 'y', ['a'], ['Statistics'], ['#188ae2']);
-
+    Grafik1.prototype.init = function() {
         //create line chart
         var $data  = [
-            { y: '2008', a: 50, b: 0 },
-            { y: '2009', a: 75, b: 50 },
-            { y: '2010', a: 30, b: 80 },
-            { y: '2011', a: 50, b: 50 },
-            { y: '2012', a: 75, b: 10 },
-            { y: '2013', a: 50, b: 40 },
-            { y: '2014', a: 75, b: 50 },
-            { y: '2015', a: 100, b: 70 }
+            { y: '2016', a: 5, b: 0, c: 3, d: 6, e: 2},
+            { y: '2017', a: 7, b: 5, c: 6, d: 8, e: 7},
+            { y: '2018', a: 3, b: 8, c: 3, d: 2, e: 4},
+            { y: '2019', a: 5, b: 5, c: 7, d: 5, e: 2},
+            { y: '2020', a: 7, b: 1, c: 1, d: 3, e: 8},
+            { y: '2021', a: 5, b: 4, c: 9, d: 1, e: 1},
           ];
-        this.createLineChart('morris-line-example', $data, 'y', ['a','b'], ['Series A','Series B'],['0.9'],['#ffffff'],['#999999'], ['#10c469','#188ae2']);
+        this.createLineChart('morris-line-example', $data, 'y', ['a','b','c','d','e'], ['Ticketing','Caller','Digital Signage','Hardware','Jaringan'],['0.9'],['#ffffff'],['#999999'], ['#10c469','#188ae2','#ff8acc', '#5b69bc', '#ffbd4a']);
 
         //creating donut chart
         var $donutData = [
-                {label: "Kesehatan", value: 5},
+                {label: "Kesehatan", value: 9},
                 {label: "Pemerintahan", value: 7},
                 {label: "Industry", value: 12}
             ];
-        this.createDonutChart('morris-donut-example', $donutData, ['#ff8acc', '#5b69bc', "#35b8e0"]);
+        this.createDonutChart('morris-donut-example', $donutData, ['#ff8acc', '#5b69bc', '#35b8e0']);
     },
     //init
-    $.Dashboard1 = new Dashboard1, $.Dashboard1.Constructor = Dashboard1
+    $.Grafik1 = new Grafik1, $.Grafik1.Constructor = Grafik1
 }(window.jQuery),
 
 //initializing 
 function($) {
     "use strict";
-    $.Dashboard1.init();
+    $.Grafik1.init();
 }(window.jQuery);

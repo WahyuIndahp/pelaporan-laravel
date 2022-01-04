@@ -112,8 +112,8 @@
                                             <td>Sadewas</td>
                                             <td>Edinburgh</td>
                                             <td class="actions">
-                                                <a href="" class="btn btn-icon waves-effect waves-light btn-success btn-xs m-b-5"> <i class="fa fa-pencil-square-o"></i> <span> Edit</span></a>
-                                                <a href="" class="btn btn-icon waves-effect waves-light btn-info btn-xs m-b-5"> <i class="fa fa-eye"></i> <span> Detail</span></a>
+                                                <a href="/edatal" class="btn btn-icon waves-effect waves-light btn-success btn-xs m-b-5"> <i class="fa fa-pencil-square-o"></i> <span> Edit</span></a>
+                                                <a href="/detaildatal" class="btn btn-icon waves-effect waves-light btn-info btn-xs m-b-5"> <i class="fa fa-eye"></i> <span> Detail</span></a>
                                             </td>
                                         </tr>
                                     </tbody>

@@ -92,11 +92,11 @@
                                     width="100%">
                                     <thead>
                                         <tr>
-                                            <th>Nomor Ticketing</th>
-                                            <th>Tanggal Ticketing</th>
-                                            <th>Kategori</th>
-                                            <th>Client</th>
-                                            <th>Isi Ticketing</th>
+                                            <th>Nomor Ticket</th>
+                                            <th>Nama Instansi</th>
+                                            <th>Alamat</th>
+                                            <th>Tanggal Aduan</th>
+                                            <th>Nomor Telepon</th>
                                             <th>Status</th>
                                             <th>Actions</th>
                                         </tr>

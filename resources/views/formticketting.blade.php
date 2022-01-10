@@ -144,10 +144,13 @@
                                             <div class="form-group m-b-0 m-t-40">
                                                 <div class="col-sm-offset-4">
                                                     <a href="javascript:void(0);"  type="submit"
-                                                    class="btn btn-primary waves-effect waves-light"> Proses</a>
+                                                    class="btn btn-rounded btn-primary waves-effect waves-light"> Proses</a>
 
                                                     <a href="/tiket" type="submit"
-                                                    class="btn btn-success waves-effect waves-light">Selesai</a>
+                                                    class="btn btn-rounded btn-success waves-effect waves-light">Selesai</a>
+                                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                                    <a href="/riwayat" type="submit"
+                                                    class="btn btn-rounded btn-warning waves-effect waves-light">Riwayat</a>
                                                 </div>
                                             </div>
 

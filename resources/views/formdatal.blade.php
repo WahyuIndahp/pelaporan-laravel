@@ -110,8 +110,6 @@
                                                 <label class="col-md-8 m-t-15">Kategori Instansi</label>
                                                 <div class="col-sm-9">
                                                     <select class="form-control select2">
-                                                        <option>Kategori Instalasi</option>
-                                                        <optgroup label="Pilih Leader">
                                                             <option value="1">Pemerintahan</option>
                                                             <option value="2">Kesehatan</option>
                                                             <option value="3">Industri</option>
@@ -188,7 +186,6 @@
 
 
                                                     <select class="form-control select2">
-                                                        <option>Leader Instalasi</option>
                                                         <optgroup label="Pilih Leader">
                                                             <option value="1">Teknisi Nakula Sadewa 1</option>
                                                             <option value="2">Teknisi Nakula Sadewa 2</option>

@@ -65,6 +65,19 @@ Route::get('/fdatal', function () {
     return view('formdatal');
 });
 
+Route::get('/fdating', function () {
+    return view('formdating');
+});
+
+Route::get('/dating', function () {
+    return view('dataticketing');
+});
+
+Route::get('/riwayat', function () {
+    return view('riwayat');
+});
+
+
 Route::get('/lapin', function () {
     return view('laporaninstalasi');
 });

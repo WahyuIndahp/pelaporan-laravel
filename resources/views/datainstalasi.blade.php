@@ -102,6 +102,7 @@
                                             <th>Nama Instansi</th>
                                             <th>Penanggung Jawab</th>
                                             <th>Tanggal Instalasi</th>
+                                            <th>Status</th>
                                             <th>Actions</th>
                                         </tr>
                                     </thead>
@@ -111,6 +112,7 @@
                                             <td>Singa</td>
                                             <td>Sadewas</td>
                                             <td>Edinburgh</td>
+                                            <td><span class="label label-pink">Baru</span></td>
                                             <td class="actions">
                                                 <a href="/edatal" class="btn btn-icon waves-effect waves-light btn-success btn-xs m-b-5"> <i class="fa fa-pencil-square-o"></i> <span> Edit</span></a>
                                                 <a href="/detaildatal" class="btn btn-icon waves-effect waves-light btn-info btn-xs m-b-5"> <i class="fa fa-eye"></i> <span> Detail</span></a>

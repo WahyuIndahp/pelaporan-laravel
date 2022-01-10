@@ -45,8 +45,10 @@
                     <a href="javascript:void(0);" class="waves-effect"><span> Menu Admin
                         </span> <span class="menu-arrow"></span></a>
                     <ul class="list-unstyled">
-                        <a href="/datal" class="waves-effect"><i class="fa fa-book" aria-hidden="true"></i> <span> Data
-                            Instalasi </span> </a>
+                        <li><a href="/datal" class="waves-effect"><i class="fa fa-book" aria-hidden="true"></i> <span> Data
+                            Instalasi </span> </a></li>
+                        <li><a href="/dating" class="waves-effect"><i class="fa fa-book" aria-hidden="true"></i> <span> Data
+                            Ticketing </span> </a></li>
                     </ul>
                 </li>
 

@@ -106,18 +106,12 @@
                                                         placeholder="Masukkan nama pegawai">
                                                 </div>
                                             </div>
+                                            
                                             <div class="form-group">
-                                                <label class="col-md-8 m-t-15">Kategori Pegawai</label>
+                                                <label class="col-md-8 m-t-15">ID Pegawai</label>
                                                 <div class="col-sm-9">
-                                                    <select class="form-control select2">
-                                                        <option>Kategori Pegawai</option>
-                                                        <optgroup label="Pilih Leader">
-                                                            <option value="1">Teknisi</option>
-                                                            <option value="2">Admin</option>
-                                                            <option value="3">Programmer</option>
-                                                            <option value="4">Manager</option>
-                                                        </optgroup>
-                                                    </select>
+                                                    <input type="text" class="form-control"
+                                                        placeholder="Auto Generate ID Pegawai">
                                                 </div>
                                             </div>
 
@@ -134,10 +128,17 @@
                                     <div class="col-lg-5 p-20 ">
                                         <form class="form-horizontal" role="form">
                                             <div class="form-group">
-                                                <label class="col-md-8 m-t-15">ID Pegawai</label>
+                                                <label class="col-md-8 m-t-15">Kategori Pegawai</label>
                                                 <div class="col-sm-10">
-                                                    <input type="text" class="form-control"
-                                                        placeholder="Auto Generate ID Pegawai">
+                                                    <select class="form-control select2">
+                                                        <option>Kategori Pegawai</option>
+                                                        <optgroup label="Pilih Leader">
+                                                            <option value="1">Teknisi</option>
+                                                            <option value="2">Admin</option>
+                                                            <option value="3">Programmer</option>
+                                                            <option value="4">Manager</option>
+                                                        </optgroup>
+                                                    </select>
                                                 </div>
                                             </div>
 

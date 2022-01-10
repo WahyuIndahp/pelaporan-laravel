@@ -60,7 +60,7 @@
                             </button>
                         </li>
                         <li>
-                            <h4 class="page-title">DETAIL TABLE DATA INSTALASI</h4>
+                            <h4 class="page-title">DETAIL DATA INSTALASI</h4>
                         </li>
                     </ul>
 
@@ -87,59 +87,87 @@
             <div class="content">
                 <div class="container">
                     <div class="row">
-                        <div class="col-sm-12">
-                            <div class="m-b-30">
-                                <a href="/instal" type="button" class="btn btn-primary"><i class="fa fa-back"> </i>
-                                    Back</a>
-                            </div>
+                        <div class="m-b-30">
+                            <a href="/tiket" type="button" class="btn btn-primary"><i class="fa fa-back"> </i>
+                                Back</a>
+                        </div>
+                        <div class="col-sm-10 col-sm-offset-1 ">
+                            
                             <div class="card-box table-responsive">
                                 <div class="clearfix">
                                     <div class="pull-left">
-                                        <h4><br>
-                                            <strong>Data Instalasi</strong>
+                                        <h4>BANK MANDIRI<br>
+                                            <strong>Jl. Sigura-gura 12A</strong>
                                         </h4>
                                     </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-md-9 col-sm-offset-1">
-                                        <div class="pull-left m-t-30">
-                                            <p><strong>Nama Instansi :</strong>
-                                                Mandiri Suhat</p>
-                                            <p><strong>Kategori :
-                                                </strong> Industri</p>
-                                            <p><strong>Alamat : </strong> Soekarno Hatta</p>
-                                            <p><strong>Penanggun jawab (PIC) : </strong> Rafathar</p>
-                                            <p><strong>No Telepon (PIC) : </strong> 081234567890</p>
+                                    <div class="pull-right">
+                                        <h4>Kategori Instansi :
+                                            <strong>Industri</strong>
+                                        </h4>
 
+                                    </div>
+                                    {{-- <div class="pull-right">
+                                        <h4>Tanggal Selesai Instalasi <br>
+                                            <strong>15-01-2021</strong>
+                                        </h4>
+                                    </div> --}}
+                                </div>
+                                <hr>
+                                <div class="row">
+                                    <div class="col-md-10 ">
+                                        <div class="pull-left m-t-30 col-sm-offset-1">
+                                            <p><strong>Tanggal Mulai Instalasi </strong> </p>
+                                            <p>Jan 17, 2016</p><br>
+                                            <p><strong>Penanggung Jawab (PIC)</strong> </p>
+                                            <p>Agus Susianto</p>
                                         </div>
-                                        <div class="pull-right m-t-30">
-                                            <p><strong>Tanggal Instalasi : </strong> 22 Desember 2021</p>
-                                            <p><strong>Jumlah Teknisi : </strong> 1</p>
-                                            <p><strong>Nama Teknisi : </strong> 1. Raiden</p>
-                                            <p><strong>Leader Teknisi : </strong> Raiden</p>
+                                        <div class="pull-right m-t-30 " >
+                                            <p><strong>Tanggal Selesai Instalasi </strong></p>
+                                            <p>Jan 17, 2016</p><br>
+                                            <p><strong>No Telp PIC</strong></p>
+                                            <p>08121212121</p><br>
                                         </div>
                                     </div><!-- end col -->
+                                </div>
+                                <hr>
+                                    <div class="row">
+                                        <div class="col-md-10 col-sm-offset-1">
+                                            <div class="table-responsive">
+                                                <table class="table">
+                                                    <thead>
+                                                        <tr>
+                                                            <th>Jumlah Teknisi</th>
+                                                            <th>Nama Teknisi</th>
+                                                            <th>Leader</th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                        <tr>
+                                                            <td>2</td>
+                                                            <td>Indah Ppppp <br>
+                                                                Wahyu Indah</td>
+                                                            <td>Wahyu Indah</td>
+                                                        </tr>
+                                                        
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div><!-- end col -->
                     </div>
                     <!-- end row -->
-
-
                 </div> <!-- container -->
-
             </div> <!-- content -->
 
             @include('fix.footer')
-
+        
         </div>
-
-
         <!-- ============================================================== -->
         <!-- End Right content here -->
         <!-- ============================================================== -->
-
-
         <!-- Right Sidebar -->
         @include('fix.rightsb')
         <!-- /Right-bar -->

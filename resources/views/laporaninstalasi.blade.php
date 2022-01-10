@@ -97,8 +97,9 @@
                                             <th>Leader Teknisi</th>
                                             <th>Nama Instansi</th>
                                             <th>Anydesk ID</th>
-                                            <th>Tanggal Mulai Instalasi</th>
-                                            <th>Tanggal Selesai Instalasi</th>
+                                            <th>Mulai Instalasi</th>
+                                            <th>Selesai Instalasi</th>
+                                            <th>Status Penyimpanan</th>
                                             <th>Actions</th>
                                         </tr>
                                     </thead>
@@ -109,6 +110,9 @@
                                             <td>System Architect</td>
                                             <td>System Architect</td>
                                             <td>Edinburgh</td>
+                                            <td class="actions">
+                                                <a href="/dlapin" class="btn btn-icon waves-effect waves-light btn-success btn-xs m-b-5"> <i class="fa fa-tasks"></i> <span> Selesai</span></a>
+                                            </td>
                                             <td class="actions">
                                                 <a href="/dlapin" class="btn btn-icon waves-effect waves-light btn-info btn-xs m-b-5"> <i class="fa fa-eye"></i> <span> Lihat Detail</span></a>
                                             </td>

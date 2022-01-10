@@ -115,7 +115,7 @@
                                             </div>
 
                                             <div class="form-group">
-                                                <label class="col-sm-8 m-t-15">Tanggal Selesai Instalasi</label>
+                                                <label class="col-sm-8 m-t-15">Tanggal Mulai Training</label>
                                                 <div class="col-sm-12">
                                                     <div class="input-group">
                                                         <span class="input-group-addon b-0 text-white"></span>
@@ -129,7 +129,7 @@
                                                 <label class="col-md-8  m-t-15">Nama Leader</label>
                                                 <div class="col-md-12">
                                                     <input type="text" class="form-control"
-                                                        placeholder="Masukkan nama leader">
+                                                        value="Nama leader">
                                                 </div>
                                             </div>
 
@@ -138,6 +138,26 @@
                                                 <div class="col-md-12">
                                                     <input type="text" class="form-control"
                                                         placeholder="Masukkan id anydesk">
+                                                </div>
+                                            </div>
+
+                                            <div class="form-group">
+                                                <label class="col-md-8 m-t-15">Internet Protocol Address</label>
+                                                <div class="col-md-12">
+                                                    <input type="text" class="form-control"
+                                                        placeholder="Masukkan IP">
+                                                </div>
+                                            </div>
+
+                                            <div class="form-group">
+                                                <label class="col-md-8 m-t-15">Kondisi Lisensi</label>
+                                                <div class="col-sm-12">
+                                                    <select class="form-control select2">
+                                                        <optgroup label="Kondisi Lisensi">
+                                                            <option value="1">Trial</option>
+                                                            <option value="2">Full</option>
+                                                        </optgroup>
+                                                    </select>
                                                 </div>
                                             </div>
 
@@ -193,7 +213,7 @@
                                     <div class="col-lg-6 p-20 ">
                                         <form class="form-horizontal" role="form">
                                             <div class="form-group">
-                                                <label class="col-sm-8 m-t-15">Tanggal Mulai Training</label>
+                                                <label class="col-sm-8 m-t-15">Tanggal Selesai Instalasi</label>
                                                 <div class="col-sm-12">
                                                     <div class="input-group">
                                                         <span class="input-group-addon b-0 text-white"></span>
@@ -213,11 +233,19 @@
                                                     </div><!-- input-group -->
                                                 </div>
                                             </div>
+
+                                            <div class="form-group">
+                                                <label class="col-md-8 m-t-15">Nama Instansi</label>
+                                                <div class="col-md-12  ">
+                                                    <input type="text" class="form-control" maxlength="25"
+                                                        value="Nama instansi">
+                                                </div>
+                                            </div>
+
                                             <div class="form-group">
                                                 <label class="col-md-8 m-t-15">Kategori Instansi</label>
                                                 <div class="col-sm-12">
                                                     <select class="form-control select2">
-                                                        <option>Kategori Instalasi</option>
                                                         <optgroup label="Pilih Leader">
                                                             <option value="1">Pemerintahan</option>
                                                             <option value="2">Kesehatan</option>
@@ -226,11 +254,24 @@
                                                     </select>
                                                 </div>
                                             </div>
+
                                             <div class="form-group">
-                                                <label class="col-md-8 m-t-15">Nama Instansi</label>
-                                                <div class="col-md-12  ">
-                                                    <input type="text" class="form-control" maxlength="25"
-                                                        placeholder="Masukkan nama instansi">
+                                                <label class="col-md-8 m-t-15">Jumlah Caller</label>
+                                                <div class="col-md-12">
+                                                    <input type="text" class="form-control"
+                                                        placeholder="Masukkan jumlah caller">
+                                                </div>
+                                            </div>
+
+                                            <div class="form-group">
+                                                <label class="col-md-8 m-t-15">Jenis Caller</label>
+                                                <div class="col-sm-12">
+                                                    <select class="form-control select2">
+                                                        <optgroup label="Jenis Caller">
+                                                            <option value="1">Device</option>
+                                                            <option value="2">Android</option>
+                                                        </optgroup>
+                                                    </select>
                                                 </div>
                                             </div>
 

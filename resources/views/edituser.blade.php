@@ -98,17 +98,38 @@
                             <div class="card-box">
                                 <div class="row">
                                     <div class="col-lg-6 p-20 col-sm-offset-1">
-                                        <form class="form-horizontal" role="form">
+                                    <form class="form-horizontal" role="form">
                                             <div class="form-group">
                                                 <label class="col-md-8  m-t-15">Nama Pegawai</label>
                                                 <div class="col-md-9">
                                                     <input type="text" class="form-control"
-                                                        placeholder="Nama pegawai">
+                                                        value="Nama pegawai">
                                                 </div>
                                             </div>
+                                            
+                                            <div class="form-group">
+                                                <label class="col-md-8 m-t-15">ID Pegawai</label>
+                                                <div class="col-sm-9">
+                                                    <input type="text" class="form-control"
+                                                        value="ID Pegawai">
+                                                </div>
+                                            </div>
+
+                                            <div class="form-group">
+                                                <label class="col-md-8 m-t-15">Nomor Telepon</label>
+                                                <div class="col-md-9">
+                                                    <input type="text" class="form-control"
+                                                        value="Nomor telepon pegawai">
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div><!-- end col -->
+
+                                    <div class="col-lg-5 p-20 ">
+                                        <form class="form-horizontal" role="form">
                                             <div class="form-group">
                                                 <label class="col-md-8 m-t-15">Kategori Pegawai</label>
-                                                <div class="col-sm-9">
+                                                <div class="col-sm-10">
                                                     <select class="form-control select2">
                                                         <option>Kategori Pegawai</option>
                                                         <optgroup label="Pilih Leader">
@@ -122,30 +143,10 @@
                                             </div>
 
                                             <div class="form-group">
-                                                <label class="col-md-8 m-t-15">Nomor Telepon</label>
-                                                <div class="col-md-9">
-                                                    <input type="text" class="form-control"
-                                                        placeholder="Nomor telepon pegawai">
-                                                </div>
-                                            </div>
-                                        </form>
-                                    </div><!-- end col -->
-
-                                    <div class="col-lg-5 p-20 ">
-                                        <form class="form-horizontal" role="form">
-                                            <div class="form-group">
-                                                <label class="col-md-8 m-t-15">ID Pegawai</label>
-                                                <div class="col-sm-10">
-                                                    <input type="text" class="form-control"
-                                                        placeholder="Auto Generate ID Pegawai">
-                                                </div>
-                                            </div>
-
-                                            <div class="form-group">
                                                 <label class="col-md-8 m-t-15">Password</label>
                                                 <div class="col-sm-10">
                                                     <input type="text" class="form-control"
-                                                        placeholder="Password pegawai">
+                                                        value="Masukkan password pegawai">
                                                 </div>
                                             </div>
 
@@ -166,10 +167,11 @@
                                             </div>
 
                                             <div class="form-group p-20 m-b-0 m-t-30">
-                                                <div class="col-sm-offset-3">
-                                                    <a href="/db" type="submit"
-                                                        class="btn btn-info waves-effect waves-light"><i
-                                                            class="fa fa-floppy-o" aria-hidden="true"></i> Simpan Perubahan</a>
+                                                <div class="col-sm-offset-2">
+                                                    <a href="/admtr" type="submit"
+                                                        class="btn btn-success waves-effect waves-light"><i
+                                                            class="fa fa-floppy-o" aria-hidden="true"></i> Simpan Perubahan
+                                                        Data</a>
                                                 </div>
                                             </div>
 

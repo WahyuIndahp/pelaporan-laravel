@@ -94,7 +94,8 @@
                                             <th>Nama Instansi</th>
                                             <th>Penanggung Jawab</th>
                                             <th>Tanggal Instalasi</th>
-                                            <th>Actions</th>
+                                            <th>Status</th>
+                                            <th>Aksi</th>
                                         </tr>
                                     </thead>
                                     <tbody>
@@ -104,8 +105,10 @@
                                             <td>Sadewas</td>
                                             <td>Edinburgh</td>
                                             <td class="actions">
+                                                <a href="" class="btn btn-icon waves-effect waves-light btn-danger btn-xs m-b-5" data-toggle="modal" data-target="#dialog"> <i class="fa fa-tasks"></i> <span> Kerjakan</span></a>
+                                            </td>
+                                            <td class="actions">
                                                 <a href="/detaildataltns" class="btn btn-icon waves-effect waves-light btn-info btn-xs m-b-5"> <i class="fa fa-eye"></i> <span> Detail</span></a>
-                                                <a href="" class="btn btn-icon waves-effect waves-light btn-danger btn-xs m-b-5"> <i class="fa fa-tasks"></i> <span> Kerjakan</span></a>
                                             </td>
                                         </tr>
                                     </tbody>
@@ -119,6 +122,34 @@
                 </div> <!-- container -->
 
             </div> <!-- content -->
+
+            <!-- MODAL -->
+
+
+            <div class="modal fade" id="dialog" tabindex="-1" aria-labelledby="dialog" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                                    aria-hidden="true">×</span>
+                            </button>
+                            <h4 class="modal-title">Konfirmasi</h4>
+                        </div>
+                        <div class="modal-body">
+                            <h5 class="text-center">Apakah anda yakin ingin mengerjakan instalasi ini</h5>
+                        </div>
+                        <div class="row m-t-20">
+                            <div class="modal-footer">
+                                <form action="">
+                                    <a href="#" type="button" class="btn btn-primary"> Iya</a>
+                                    <button id="dialogCancel" class="btn btn-default waves-effect">Tidak</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- end Modal -->
 
             @include('fix.footer')
 

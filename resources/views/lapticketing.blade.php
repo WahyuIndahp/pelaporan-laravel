@@ -60,13 +60,10 @@
                             </button>
                         </li>
                         <li>
-                            <h4 class="page-title">DETAIL DATA INSTALASI</h4>
+                            <h4 class="page-title">LAPORAN TICKETING</h4>
                         </li>
                     </ul>
 
-                    <!-- Right(Notification and Searchbox -->
-                    @include('fix.right')
-                    <!-- End Notification bar -->
                 </div><!-- end container -->
             </div><!-- end navbar -->
         </div>
@@ -87,87 +84,90 @@
             <div class="content">
                 <div class="container">
                     <div class="row">
-                        <div class="m-b-30">
-                            <a href="/datal" type="button" class="btn btn-primary"><i class="fa fa-back"> </i>
-                                Back</a>
-                        </div>
-                        <div class="col-sm-10 col-sm-offset-1 ">
-                            
+                        <div class="col-sm-12">
                             <div class="card-box table-responsive">
-                                <div class="clearfix">
-                                    <div class="pull-left">
-                                        <h4>BANK MANDIRI<br>
-                                            <strong>Jl. Sigura-gura 12A</strong>
-                                        </h4>
-                                    </div>
-                                    <div class="pull-right">
-                                        <h4>Kategori Instansi :
-                                            <strong>Industri</strong>
-                                        </h4>
 
-                                    </div>
-                                    {{-- <div class="pull-right">
-                                        <h4>Tanggal Selesai Instalasi <br>
-                                            <strong>15-01-2021</strong>
-                                        </h4>
-                                    </div> --}}
-                                </div>
-                                <hr>
-                                <div class="row">
-                                    <div class="col-md-10 ">
-                                        <div class="pull-left m-t-30 col-sm-offset-1">
-                                            <p><strong>Tanggal Mulai Instalasi </strong> </p>
-                                            <p>Jan 17, 2016</p><br>
-                                            <p><strong>Penanggung Jawab (PIC)</strong> </p>
-                                            <p>Agus Susianto</p>
-                                        </div>
-                                        <div class="pull-right m-t-30 " >
-                                            <p><strong>Tanggal Selesai Instalasi </strong></p>
-                                            <p>Jan 17, 2016</p><br>
-                                            <p><strong>No Telp PIC</strong></p>
-                                            <p>08121212121</p><br>
-                                        </div>
-                                    </div><!-- end col -->
-                                </div>
-                                <hr>
-                                    <div class="row">
-                                        <div class="col-md-10 col-sm-offset-1">
-                                            <div class="table-responsive">
-                                                <table class="table">
-                                                    <thead>
-                                                        <tr>
-                                                            <th>Jumlah Teknisi</th>
-                                                            <th>Nama Teknisi</th>
-                                                            <th>Leader</th>
-                                                        </tr>
-                                                    </thead>
-                                                    <tbody>
-                                                        <tr>
-                                                            <td>2</td>
-                                                            <td>Indah Ppppp <br>
-                                                                Wahyu Indah</td>
-                                                            <td>Wahyu Indah</td>
-                                                        </tr>
-                                                        
-                                                    </tbody>
-                                                </table>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
+                            <table id="datatable-responsive"
+                                    class="table table-striped table-bordered dt-responsive nowrap" cellspacing="0"
+                                    width="100%">
+                                    <thead>
+                                        <tr>
+                                            <th>Nomor Ticket</th>
+                                            <th>Nama Instansi</th>
+                                            <th>Alamat</th>
+                                            <th>Tanggal Aduan</th>
+                                            <th>Nomor Telepon</th>
+                                            <th>Status</th>
+                                            <th>Actions</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>Tiger</td>
+                                            <td>Nixon</td>
+                                            <td>System Architect</td>
+                                            <td>Edinburgh</td>
+                                            <td>Nixon</td>
+                                            <td><span class="label label-pink">Selesai</span></td>
+                                            <td class="actions">
+                                                <a href="/mnjlating"
+                                                    class="btn btn-icon waves-effect waves-light btn-info btn-xs m-b-5">
+                                                    <i class="fa fa-eye"></i> <span> Detail</span></a>
+                                            </td>
+
+                                        </tr>
+                                    </tbody>
+                                </table>
                             </div>
                         </div><!-- end col -->
                     </div>
                     <!-- end row -->
+
+
                 </div> <!-- container -->
+
             </div> <!-- content -->
 
+            <!-- MODAL -->
+
+
+            <div class="modal fade" id="dialog" tabindex="-1" aria-labelledby="dialog" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                                    aria-hidden="true">×</span>
+                            </button>
+                            <h4 class="modal-title">Konfirmasi</h4>
+                        </div>
+                        <div class="modal-body">
+                            <h5 class="text-center">Apakah anda ingin memproses data ini?</h5>
+                        </div>
+                        <div class="row m-t-20">
+                            <div class="modal-footer">
+                                <form>
+                                    <a href="/ftiket" type="button" class="btn btn-primary"> Ya</a>
+                                </form> <br>
+                                <form action="">
+                                    <button id="dialogCancel" class="btn btn-default waves-effect">Tidak</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- end Modal -->
+
             @include('fix.footer')
-        
+
         </div>
+
+
         <!-- ============================================================== -->
         <!-- End Right content here -->
         <!-- ============================================================== -->
+
+
         <!-- Right Sidebar -->
         @include('fix.rightsb')
         <!-- /Right-bar -->
@@ -209,6 +209,11 @@
     <script src="assets/plugins/datatables/dataTables.scroller.min.js"></script>
 
     <!-- Datatable init js -->
+    <script src="assets/plugins/magnific-popup/dist/jquery.magnific-popup.min.js"></script>
+    <script src="assets/plugins/jquery-datatables-editable/jquery.dataTables.js"></script>
+    <script src="assets/plugins/datatables/dataTables.bootstrap.js"></script>
+    <script src="assets/plugins/tiny-editable/mindmup-editabletable.js"></script>
+    <script src="assets/plugins/tiny-editable/numeric-input-example.js"></script>
     <script src="assets/pages/datatables.init.js"></script>
 
     <!-- App js -->

@@ -69,7 +69,7 @@
                             </button>
                         </li>
                         <li>
-                            <h4 class="page-title">FORM EDIT DAFTAR INSTALASI</h4>
+                            <h4 class="page-title">FORM EDIT DAFTAR TICKETING</h4>
                         </li>
                     </ul>
 
@@ -97,116 +97,88 @@
                         <div class="col-sm-12">
                             <div class="card-box">
                                 <div class="row">
-                                    <div class="col-lg-6 p-20 col-sm-offset-1">
+                                    <div class="col-lg-6 p-20">
                                         <form class="form-horizontal" role="form">
                                             <div class="form-group">
-                                                <label class="col-md-8  m-t-15">Nama Instansi</label>
-                                                <div class="col-md-9">
+                                                <label class="col-md-8  m-t-15">No Ticket</label>
+                                                <div class="col-md-12">
                                                     <input type="text" class="form-control"
-                                                        placeholder="Nama instansi">
+                                                        placeholder="Masukkan nomor ticket">
                                                 </div>
                                             </div>
+                                            
                                             <div class="form-group">
-                                                <label class="col-md-8 m-t-15">Kategori Instansi</label>
-                                                <div class="col-sm-9">
+                                                <label class="col-md-8  m-t-15">Nama Instansi</label>
+                                                <div class="col-md-12">
+                                                    <input type="text" class="form-control"
+                                                        placeholder="Masukkan nama instansi">
+                                                </div>
+                                            </div>
+
+                                            <div class="form-group">
+                                                <label class="col-md-8 m-t-15">Nomor Telepon</label>
+                                                <div class="col-md-12">
+                                                    <input type="text" class="form-control"
+                                                        placeholder="Masukkan nomor telepon">
+                                                </div>
+                                            </div>
+
+                                            <div class="form-group">
+                                                <label class="col-md-8 m-t-15">Kategori Aduan</label>
+                                                <div class="col-sm-12">
                                                     <select class="form-control select2">
-                                                        <option>Kategori Instalasi</option>
-                                                        <optgroup label="Pilih Leader">
-                                                            <option value="1">Pemerintahan</option>
-                                                            <option value="2">Kesehatan</option>
-                                                            <option value="3">Industri</option>
+                                                        <optgroup label="Kategori Aduan">
+                                                            <option value="1">Ticketing</option>
+                                                            <option value="2">Caller</option>
+                                                            <option value="3">Digita Singage</option>
+                                                            <option value="4">Hardware</option>
+                                                            <option value="5">Jaringan</option>
                                                         </optgroup>
                                                     </select>
                                                 </div>
                                             </div>
-                                            <div class="form-group">
-                                                <label class="col-md-8 m-t-15">Alamat</label>
-                                                <div class="col-md-9  ">
-                                                    <input type="text" class="form-control" maxlength="25"
-                                                        placeholder="Alamat">
-                                                </div>
-                                            </div>
-                                            <div class="form-group">
-                                                <label class="col-md-8 m-t-15">Penanggung Jawab (PIC)</label>
-                                                <div class="col-md-9">
-                                                    <input type="text" class="form-control"
-                                                        placeholder="Nama penanggung jawab (PIC)">
-                                                </div>
-                                            </div>
-
-                                            <div class="form-group">
-                                                <label class="col-md-8 m-t-15">Nomor Telepon (PIC)</label>
-                                                <div class="col-md-9">
-                                                    <input type="text" class="form-control"
-                                                        placeholder="Nomor telepon PIC">
-                                                </div>
-                                            </div>
-
                                         </form>
                                     </div><!-- end col -->
 
-                                    <div class="col-lg-5 p-20 ">
+                                    <div class="col-lg-6 p-20 ">
                                         <form class="form-horizontal" role="form">
                                             <div class="form-group">
-                                                <label class="col-sm-8 m-t-15">Tanggal Instalasi</label>
-                                                <div class="col-sm-10">
+                                                <label class="col-sm-8 m-t-15">Tanggal Aduan</label>
+                                                <div class="col-sm-12">
                                                     <div class="input-group">
                                                         <span class="input-group-addon b-0 text-white"></span>
-                                                        <input type="date" class="form-control "
-                                                            placeholder="Klik untuk pilih tanggal"
-                                                            id="datepicker-autoclose">
+                                                        <input type="datetime-local" class="form-control "
+                                                            placeholder="Klik untuk pilih tanggal">
                                                     </div><!-- input-group -->
                                                 </div>
                                             </div>
-                                            <div class="form-group">
-                                                <label class="col-md-8 m-t-15">Jumlah Teknisi</label>
-                                                <div class="col-sm-10">
-                                                    <input type="text" class="form-control"
-                                                        placeholder="Jumlah teknisi">
-                                                </div>
-                                            </div>
-                                            <div class="form-group">
-                                                <label class="col-md-8 m-t-15">Pilih Teknisi</label>
-                                                <div class="col-sm-10">
 
-
-                                                    <select class="select2 select2-multiple" multiple="multiple"
-                                                        multiple data-placeholder="Klik untuk memilih teknisi">
-                                                        <optgroup label="Daftar Teknisi">
-                                                            <option value="1">Teknisi Nakula Sadewa 1</option>
-                                                            <option value="2">Teknisi Nakula Sadewa 2</option>
-                                                            <option value="3">Teknisi Nakula Sadewa 3</option>
-                                                            <option value="4">Teknisi Nakula Sadewa 4</option>
-                                                        </optgroup>
-                                                    </select>
+                                            <div class="form-group">
+                                                <label class="col-md-8 m-t-15">Alamat</label>
+                                                <div class="col-md-12  ">
+                                                    <input type="text" class="form-control" maxlength="25"
+                                                        placeholder="Masukkan alamat">
                                                 </div>
                                             </div>
 
                                             <div class="form-group">
-                                                <label class="col-md-8 m-t-15">Leader Instalasi</label>
-                                                <div class="col-sm-10">
-
-
-                                                    <select class="form-control select2">
-                                                        <option>Leader Instalasi</option>
-                                                        <optgroup label="Pilih Leader">
-                                                            <option value="1">Teknisi Nakula Sadewa 1</option>
-                                                            <option value="2">Teknisi Nakula Sadewa 2</option>
-                                                        </optgroup>
-                                                    </select>
+                                                <label class="col-md-8 m-t-15">Isi Aduan</label>
+                                                <div class="col-md-12">
+                                                    <textarea class="form-control" rows="5"></textarea>
                                                 </div>
                                             </div>
                                         </form>
                                         <div class="form-group p-20 m-b-0 m-t-30">
-                                            <div class="col-sm-offset-0">
-                                            <a href="/datal" type="submit"
+                                            <div class="col-sm-offset-2">
+                                            <a href="/dating" type="submit"
                                                     class="btn btn-success waves-effect waves-light"><i
-                                                        class="fa fa-floppy-o" aria-hidden="true"></i> Cancel
-                                                    Edit</a>
-                                                <a href="/datal" type="submit"
+                                                    class="fa fa-floppy-o " aria-hidden="true"></i> Cancel
+                                                Edit</a>
+                                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                                <a href="/dating" type="submit"
                                                     class="btn btn-info waves-effect waves-light"><i
-                                                        class="fa fa-floppy-o" aria-hidden="true"></i> Simpan
-                                                    Edit</a>
+                                                    class="fa fa-floppy-o " aria-hidden="true"></i> Simpan
+                                                Edit</a>
                                             </div>
                                         </div>
                                     </div>

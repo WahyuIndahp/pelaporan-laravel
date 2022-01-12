@@ -131,8 +131,6 @@
                                                 <label class="col-md-8 m-t-15">Kategori Pegawai</label>
                                                 <div class="col-sm-10">
                                                     <select class="form-control select2">
-                                                        <option>Kategori Pegawai</option>
-                                                        <optgroup label="Pilih Leader">
                                                             <option value="1">Teknisi</option>
                                                             <option value="2">Admin</option>
                                                             <option value="3">Programmer</option>
@@ -166,16 +164,20 @@
                                                 </div>
                                             </div>
 
-                                            <div class="form-group p-20 m-b-0 m-t-30">
-                                                <div class="col-sm-offset-3">
-                                                    <a href="/admtr" type="submit"
-                                                        class="btn btn-info waves-effect waves-light"><i
-                                                            class="fa fa-floppy-o" aria-hidden="true"></i> Simpan
-                                                        Data</a>
-                                                </div>
-                                            </div>
-
+                                            
                                         </form>
+                                        <div class="form-group p-20 m-b-0 m-t-30">
+                                            <div class="col-sm-offset-0">
+                                            <a href="/admtr" type="submit"
+                                                    class="btn btn-success waves-effect waves-light"><i
+                                                        class="fa fa-floppy-o" aria-hidden="true"></i> Cancel
+                                                    Data</a>
+                                                <a href="/admtr" type="submit"
+                                                    class="btn btn-info waves-effect waves-light"><i
+                                                        class="fa fa-floppy-o" aria-hidden="true"></i> Simpan
+                                                    Data</a>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div><!-- end col -->
 

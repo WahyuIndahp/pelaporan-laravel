@@ -60,7 +60,7 @@
                             </button>
                         </li>
                         <li>
-                            <h4 class="page-title">DETAIL TABLE TICKETTING</h4>
+                            <h4 class="page-title">DETAIL DATA TICKETING</h4>
                         </li>
                     </ul>
 
@@ -87,107 +87,104 @@
             <div class="content">
                 <div class="container">
                     <div class="row">
-                        <div class="col-sm-12">
-                            <div class="m-b-30">
-                                <a href="/tiket" type="button" class="btn btn-primary"><i class="fa fa-back"> </i>
-                                    Back</a>
-                            </div>
+                        <div class="m-b-30">
+                            <a href="/tiket" type="button" class="btn btn-primary"><i class="fa fa-back"> </i>
+                                Back</a>
+                        </div>
+                        <div class="col-sm-10 col-sm-offset-1 ">
                             <div class="card-box table-responsive">
                                 <div class="clearfix">
-                                    <div class="pull-left">
-                                        <h4><br>
-                                            <strong>Data Instalasi</strong>
+                                    <div class="pull-left col-sm-offset-1">
+                                        <h4>BANK MANDIRI<br>
+                                            <strong>Jl. Sigura-gura 12A</strong>
                                         </h4>
                                     </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-md-9 col-sm-offset-1">
-                                        <div class="pull-left m-t-30">
-                                            <p><strong>Tgl. Mulai
-                                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:</strong>
-                                                Jan 17,
-                                                2016</p>
-                                            <p><strong>Tgl. Selesai
-                                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:
-                                                </strong> Jan 17, 2016</p>
-                                            <p><strong>Tgl. Mulai Training &nbsp;&nbsp;&nbsp;&nbsp;: </strong> Jan 17,
-                                                2016</p>
-                                            <p><strong>Tgl. Selesai Training &nbsp;: </strong> Jan 17, 2016</p>
+                                    <div class="pull-left col-sm-offset-4">
+                                        <h4>Kategori Instansi :
+                                            <strong>Industri</strong>
+                                        </h4>
 
+                                    </div>
+                                </div>
+                                <hr>
+                                <div class="row">
+                                    <div class="col-md-10 ">
+                                        <div class="pull-left m-t-30 col-sm-offset-2">
+                                            <p><strong>Tanggal Aduan </strong> </p>
+                                            <p>Jan 17, 2016</p><br>
                                         </div>
-                                        <div class="pull-right m-t-30">
-                                            <p><strong>Nama Teknisi &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; : </strong> Charlie
-                                                Puth</p>
-                                            <p><strong>PIC
-                                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:</strong>
-                                                Jan 17, 2016</p>
-                                            <p><strong>Nomor Telp.PIC &nbsp;: </strong> Jan 17, 2016</p>
+                                        <div class="pull-left m-t-30 col-sm-offset-2">
+                                            <p><strong>No Ticket </strong> </p>
+                                            <p>172016</p><br>
+                                        </div>
+                                        <div class="pull-left m-t-30 col-sm-offset-2">
+                                            <p><strong>No Telepon Aduan</strong> </p>
+                                            <p>0812172016</p><br>
                                         </div>
                                     </div><!-- end col -->
                                 </div>
                                 <hr>
-                                <div class="clearfix">
-                                    <div class="pull-left">
-                                        <h4><br>
-                                            <strong>Data Tiketting</strong>
-                                        </h4>
-                                    </div>
-                                </div>
                                 <div class="row">
-                                    <div class="col-md-8 col-sm-offset-1">
-                                        <div class="pull-left m-t-30">
-                                            <p><strong>Tgl. Ticketting
-                                                    &nbsp;&nbsp;&nbsp;&nbsp;:</strong>
-                                                Jan 17, 2016</p>
-                                            <p><strong>Nomor Ticket &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:</strong> Jan 17,
-                                                2016</p>
-                                            <p><strong>Kategori
-                                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:</strong>
-                                                Jan 17, 2016</p>
-                                            <p><strong>Client
-                                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:</strong>
-                                                Jan 17, 2016
+                                    <div class="col-md-10 ">
+                                        <div class="pull-left m-t-30 col-sm-offset-1">
+                                            <h5 class="font-600 m-b-20 ">Isi Aduan</h5>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates,
+                                                illo, iste
+                                                itaque voluptas corrupti ratione reprehenderit magni similique? Tempore,
+                                                quos
+                                                delectus asperiores libero voluptas quod perferendis! Voluptate, quod
+                                                illo
+                                                rerum? Lorem ipsum dolor sit amet.
+                                            </p>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates,
+                                                illo, iste
+                                                itaque voluptas corrupti ratione reprehenderit magni similique? Tempore,
+                                                quos
+                                                delectus asperiores libero voluptas quod perferendis! Voluptate, quod
+                                                illo
+                                                rerum? Lorem ipsum dolor sit amet.
                                             </p>
                                         </div>
-                                        <div class="pull-right m-t-30">
-                                            <p><strong>Alamat
-                                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:</strong> Jan 17, 2016
+                                        <!-- <div class="pull-right m-t-30 col-sm-offset-2">
+                                            <h5 class="font-600 m-b-20 ">Penyelesaian</h5>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates,
+                                                illo, iste
+                                                itaque voluptas corrupti ratione reprehenderit magni similique? Tempore,
+                                                quos
+                                                delectus asperiores libero voluptas quod perferendis! Voluptate, quod
+                                                illo
+                                                rerum? Lorem ipsum dolor sit amet.
                                             </p>
-                                            <p><strong>Isi Aduan
-                                                    &nbsp;&nbsp;&nbsp;&nbsp;
-                                                    : </strong> Charlie Puth</p>
-                                            <p class="m-t-10"><strong>Order Status &nbsp;: </strong> <span
-                                                    class="label label-pink">Pending</span></p>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates,
+                                                illo, iste
+                                                itaque voluptas corrupti ratione reprehenderit magni similique? Tempore,
+                                                quos
+                                                delectus asperiores libero voluptas quod perferendis! Voluptate, quod
+                                                illo
+                                                rerum? Lorem ipsum dolor sit amet.
+                                            </p>
+                                            <br>
+                                        </div> -->
 
-                                        </div>
                                     </div><!-- end col -->
                                 </div>
-                                <!-- end row -->
-
-
                             </div>
-                        </div><!-- end col -->
-                    </div>
-                    <!-- end row -->
+                        </div>
+                    </div><!-- end col -->
+                </div>
+                <!-- end row -->
+            </div> <!-- container -->
+        </div> <!-- content -->
 
+        @include('fix.footer')
 
-                </div> <!-- container -->
-
-            </div> <!-- content -->
-
-            @include('fix.footer')
-
-        </div>
-
-
-        <!-- ============================================================== -->
-        <!-- End Right content here -->
-        <!-- ============================================================== -->
-
-
-        <!-- Right Sidebar -->
-        @include('fix.rightsb')
-        <!-- /Right-bar -->
+    </div>
+    <!-- ============================================================== -->
+    <!-- End Right content here -->
+    <!-- ============================================================== -->
+    <!-- Right Sidebar -->
+    @include('fix.rightsb')
+    <!-- /Right-bar -->
 
     </div>
     <!-- END wrapper -->

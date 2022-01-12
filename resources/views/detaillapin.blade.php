@@ -63,7 +63,7 @@
                             </button>
                         </li>
                         <li>
-                            <h4 class="page-title">DETAIL DATA LAPORAN INSTALASI</h4>
+                            <h4 class="page-title">DETAIL LAPORAN INSTALASI</h4>
                         </li>
                     </ul>
 

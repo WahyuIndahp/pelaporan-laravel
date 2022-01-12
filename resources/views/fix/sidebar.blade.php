@@ -78,7 +78,7 @@
                     <ul class="list-unstyled">
                         <li><a href="/penginstalan" class="waves-effect"><i class="fa fa-book" aria-hidden="true"></i> <span> Laporan
                             Instalasi </span> </a></li>
-                            <li><a href="/lating" class="waves-effect"><i class="fa fa-book" aria-hidden="true"></i> <span> Laporan Ticketing</span> </a></li>
+                            <li><a href="/lapting" class="waves-effect"><i class="fa fa-book" aria-hidden="true"></i> <span> Laporan Ticketing</span> </a></li>
                         <li><a href="/grafik" class="waves-effect"><i class="fa fa-bar-chart" aria-hidden="true"></i> <span> Grafik Instalasi</span> </a></li>
                         
                     </ul>

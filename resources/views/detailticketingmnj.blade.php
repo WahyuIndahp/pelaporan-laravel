@@ -60,7 +60,7 @@
                             </button>
                         </li>
                         <li>
-                            <h4 class="page-title">DETAIL DATA INSTALASI</h4>
+                            <h4 class="page-title">DETAIL LAPORAN TICKETING</h4>
                         </li>
                     </ul>
 
@@ -88,89 +88,103 @@
                 <div class="container">
                     <div class="row">
                         <div class="m-b-30">
-                            <a href="/datal" type="button" class="btn btn-primary"><i class="fa fa-back"> </i>
+                            <a href="/lapting" type="button" class="btn btn-primary"><i class="fa fa-back"> </i>
                                 Back</a>
                         </div>
                         <div class="col-sm-10 col-sm-offset-1 ">
-                            
                             <div class="card-box table-responsive">
                                 <div class="clearfix">
-                                    <div class="pull-left">
+                                    <div class="pull-left col-sm-offset-1">
                                         <h4>BANK MANDIRI<br>
                                             <strong>Jl. Sigura-gura 12A</strong>
                                         </h4>
                                     </div>
-                                    <div class="pull-right">
+                                    <div class="pull-left col-sm-offset-4">
                                         <h4>Kategori Instansi :
                                             <strong>Industri</strong>
                                         </h4>
 
                                     </div>
-                                    {{-- <div class="pull-right">
-                                        <h4>Tanggal Selesai Instalasi <br>
-                                            <strong>15-01-2021</strong>
-                                        </h4>
-                                    </div> --}}
                                 </div>
                                 <hr>
                                 <div class="row">
                                     <div class="col-md-10 ">
-                                        <div class="pull-left m-t-30 col-sm-offset-1">
-                                            <p><strong>Tanggal Mulai Instalasi </strong> </p>
+                                        <div class="pull-left m-t-30 col-sm-offset-2">
+                                            <p><strong>Tanggal Aduan </strong> </p>
                                             <p>Jan 17, 2016</p><br>
-                                            <p><strong>Penanggung Jawab (PIC)</strong> </p>
-                                            <p>Agus Susianto</p>
                                         </div>
-                                        <div class="pull-right m-t-30 " >
-                                            <p><strong>Tanggal Selesai Instalasi </strong></p>
-                                            <p>Jan 17, 2016</p><br>
-                                            <p><strong>No Telp PIC</strong></p>
-                                            <p>08121212121</p><br>
+                                        <div class="pull-left m-t-30 col-sm-offset-2">
+                                            <p><strong>No Ticket </strong> </p>
+                                            <p>172016</p><br>
+                                        </div>
+                                        <div class="pull-left m-t-30 col-sm-offset-2">
+                                            <p><strong>No Telepon Aduan</strong> </p>
+                                            <p>0812172016</p><br>
                                         </div>
                                     </div><!-- end col -->
                                 </div>
                                 <hr>
-                                    <div class="row">
-                                        <div class="col-md-10 col-sm-offset-1">
-                                            <div class="table-responsive">
-                                                <table class="table">
-                                                    <thead>
-                                                        <tr>
-                                                            <th>Jumlah Teknisi</th>
-                                                            <th>Nama Teknisi</th>
-                                                            <th>Leader</th>
-                                                        </tr>
-                                                    </thead>
-                                                    <tbody>
-                                                        <tr>
-                                                            <td>2</td>
-                                                            <td>Indah Ppppp <br>
-                                                                Wahyu Indah</td>
-                                                            <td>Wahyu Indah</td>
-                                                        </tr>
-                                                        
-                                                    </tbody>
-                                                </table>
-                                            </div>
+                                <div class="row">
+                                    <div class="col-md-11 ">
+                                        <div class="pull-left m-t-30 col-sm-offset-1">
+                                            <h5 class="font-600 m-b-20 ">Isi Aduan</h5>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates,
+                                                illo, iste
+                                                itaque voluptas corrupti ratione reprehenderit magni similique? Tempore,
+                                                quos
+                                                delectus asperiores libero voluptas quod perferendis! Voluptate, quod
+                                                illo
+                                                rerum? Lorem ipsum dolor sit amet.
+                                            </p>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates,
+                                                illo, iste
+                                                itaque voluptas corrupti ratione reprehenderit magni similique? Tempore,
+                                                quos
+                                                delectus asperiores libero voluptas quod perferendis! Voluptate, quod
+                                                illo
+                                                rerum? Lorem ipsum dolor sit amet.
+                                            </p>
                                         </div>
-                                    </div>
+                                        <div class="pull-right m-t-30 col-sm-offset-1">
+                                            <h5 class="font-600 m-b-20 ">Penyelesaian</h5>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates,
+                                                illo, iste
+                                                itaque voluptas corrupti ratione reprehenderit magni similique? Tempore,
+                                                quos
+                                                delectus asperiores libero voluptas quod perferendis! Voluptate, quod
+                                                illo
+                                                rerum? Lorem ipsum dolor sit amet.
+                                            </p>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates,
+                                                illo, iste
+                                                itaque voluptas corrupti ratione reprehenderit magni similique? Tempore,
+                                                quos
+                                                delectus asperiores libero voluptas quod perferendis! Voluptate, quod
+                                                illo
+                                                rerum? Lorem ipsum dolor sit amet.
+                                            </p>
+                                            <br>
+                                        </div>
+
+                                    </div><!-- end col -->
                                 </div>
                             </div>
-                        </div><!-- end col -->
-                    </div>
-                    <!-- end row -->
-                </div> <!-- container -->
-            </div> <!-- content -->
+                        </div>
+                    </div><!-- end col -->
+                </div>
+                <!-- end row -->
+            </div> <!-- container -->
+        </div> <!-- content -->
 
-            @include('fix.footer')
-        
-        </div>
-        <!-- ============================================================== -->
-        <!-- End Right content here -->
-        <!-- ============================================================== -->
-        <!-- Right Sidebar -->
-        @include('fix.rightsb')
-        <!-- /Right-bar -->
+        @include('fix.footer')
+
+    </div>
+    <!-- ============================================================== -->
+    <!-- End Right content here -->
+    <!-- ============================================================== -->
+    <!-- Right Sidebar -->
+    @include('fix.rightsb')
+    <!-- /Right-bar -->
 
     </div>
     <!-- END wrapper -->

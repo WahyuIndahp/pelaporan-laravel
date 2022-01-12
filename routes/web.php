@@ -69,6 +69,10 @@ Route::get('/fdating', function () {
     return view('formdating');
 });
 
+Route::get('/edating', function () {
+    return view('editdating');
+});
+
 Route::get('/dating', function () {
     return view('dataticketing');
 });
@@ -102,8 +106,20 @@ Route::get('/lating', function () {
     return view('laporanticketing');
 });
 
+Route::get('/lapting', function () {
+    return view('lapticketing');
+});
+
 Route::get('/detailtiket', function () {
     return view('detailticketting');
+});
+
+Route::get('/detailtiketadm', function () {
+    return view('detailticketingadm');
+});
+
+Route::get('/mnjlating', function () {
+    return view('detailticketingmnj');
 });
 
 Route::get('/detaillating', function () {

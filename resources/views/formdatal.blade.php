@@ -193,16 +193,20 @@
                                                     </select>
                                                 </div>
                                             </div>
-                                            <div class="form-group p-20 m-b-0 m-t-30">
-                                                <div class="col-sm-offset-3">
-                                                    <a href="/datal" type="submit"
-                                                        class="btn btn-info waves-effect waves-light"><i
-                                                            class="fa fa-floppy-o" aria-hidden="true"></i> Simpan
-                                                        Data</a>
-                                                </div>
-                                            </div>
-
+                                            
                                         </form>
+                                        <div class="form-group p-20 m-b-0 m-t-30">
+                                            <div class="col-sm-offset-0">
+                                            <a href="/datal" type="submit"
+                                                    class="btn btn-success waves-effect waves-light"><i
+                                                        class="fa fa-floppy-o" aria-hidden="true"></i> Cancel
+                                                    Data</a>
+                                                <a href="/datal" type="submit"
+                                                    class="btn btn-info waves-effect waves-light"><i
+                                                        class="fa fa-floppy-o" aria-hidden="true"></i> Simpan
+                                                    Data</a>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div><!-- end col -->
 

@@ -42,64 +42,76 @@ Route::get('/fuser', function () {
 });
 
 Route::get('/datal', function () {
-    return view('datainstalasi');
+    return view('admin.datainstalasi');
 });
 
 Route::get('/edatal', function () {
-    return view('editdatal');
+    return view('admin.editdatal');
 });
 
 Route::get('/detaildatal', function () {
-    return view('detaildatal');
+    return view('admin.detaildatal');
 });
 
 Route::get('/detaildataltns', function () {
-    return view('detaildataltns');
+    return view('teknisi.detaildataltns');
 });
 
 Route::get('/instal', function () {
-    return view('instalasi');
+    return view('teknisi.instalasi');
 });
 
 Route::get('/fdatal', function () {
-    return view('formdatal');
+    return view('admin.formdatal');
 });
 
 Route::get('/fdating', function () {
-    return view('formdating');
+    return view('admin.formdating');
 });
 
 Route::get('/edating', function () {
-    return view('editdating');
+    return view('admin.editdating');
 });
 
 Route::get('/dating', function () {
-    return view('dataticketing');
+    return view('admin.dataticketing');
 });
 
 Route::get('/riwayat', function () {
-    return view('riwayat');
+    return view('teknisi.riwayat');
 });
 
 
 Route::get('/lapin', function () {
-    return view('laporaninstalasi');
+    return view('teknisi.laporaninstalasi');
 });
 
 Route::get('/dlapin', function () {
-    return view('detaillapin');
+    return view('teknisi.detaillapin');
+});
+
+Route::get('/dlapinp', function () {
+    return view('programmer.detaillapin');
+});
+
+Route::get('/dlapinm', function () {
+    return view('manager.detaillapin');
 });
 
 Route::get('/flapin', function () {
-    return view('formlapin');
+    return view('teknisi.formlapin');
 });
 
 Route::get('/penginstalan', function () {
-    return view('datapenginstalan');
+    return view('programmer.datapenginstalan');
+});
+
+Route::get('/penginstalan', function () {
+    return view('manager.datapenginstalan');
 });
 
 Route::get('/tiket', function () {
-    return view('ticketting');
+    return view('teknisi.ticketting');
 });
 
 Route::get('/lating', function () {
@@ -107,19 +119,19 @@ Route::get('/lating', function () {
 });
 
 Route::get('/lapting', function () {
-    return view('lapticketing');
+    return view('manager.lapticketing');
 });
 
 Route::get('/detailtiket', function () {
-    return view('detailticketting');
+    return view('teknisi.detailticketting');
 });
 
 Route::get('/detailtiketadm', function () {
-    return view('detailticketingadm');
+    return view('admin.detailticketingadm');
 });
 
 Route::get('/mnjlating', function () {
-    return view('detailticketingmnj');
+    return view('manager.detailticketingmnj');
 });
 
 Route::get('/detaillating', function () {
@@ -127,11 +139,11 @@ Route::get('/detaillating', function () {
 });
 
 Route::get('/ftiket', function () {
-    return view('formticketting');
+    return view('teknisi.formticketting');
 });
 
 Route::get('/grafik', function () {
-    return view('grafik');
+    return view('manager.grafik');
 });
 
 Route::get('/coba', function () {

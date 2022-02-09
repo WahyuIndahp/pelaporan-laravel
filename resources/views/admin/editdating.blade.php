@@ -170,12 +170,12 @@
                                         </form>
                                         <div class="form-group p-20 m-b-0 m-t-30">
                                             <div class="col-sm-offset-2">
-                                            <a href="/dating" type="submit"
+                                            <a href="/viewdatingadmin" type="submit"
                                                     class="btn btn-success waves-effect waves-light"><i
                                                     class="fa fa-floppy-o " aria-hidden="true"></i> Cancel
                                                 Edit</a>
                                                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                                <a href="/dating" type="submit"
+                                                <a href="/viewdatingadmin" type="submit"
                                                     class="btn btn-info waves-effect waves-light"><i
                                                     class="fa fa-floppy-o " aria-hidden="true"></i> Simpan
                                                 Edit</a>

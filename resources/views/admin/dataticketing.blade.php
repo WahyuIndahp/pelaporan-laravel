@@ -87,7 +87,7 @@
                         <div class="col-sm-12">
                             <div class="card-box table-responsive">
                                 <div class="m-b-30">
-                                    <a href="/fdating"  type="button" class="btn btn-primary"><i class="fa fa-plus"> </i> Tambah
+                                    <a href="/formdatingadmin"  type="button" class="btn btn-primary"><i class="fa fa-plus"> </i> Tambah
                                         Aduan</a>
                                 </div>
                                 <table id="datatable-responsive"
@@ -113,8 +113,8 @@
                                             <td>Nixon</td>
                                             <td><span class="label label-pink">Baru</span></td>
                                             <td class="actions">
-                                                <a href="/detailtiketadm" class="btn btn-icon waves-effect waves-light btn-info btn-xs m-b-5"> <i class="fa fa-eye"></i></a>
-                                                <a href="/edating" class="btn btn-icon waves-effect waves-light btn-success btn-xs m-b-5"> <i class="fa fa-pencil-square-o"></i></a>
+                                                <a href="/detailtiketadmin" class="btn btn-icon waves-effect waves-light btn-info btn-xs m-b-5"> <i class="fa fa-eye"></i></a>
+                                                <a href="/editdatingadmin" class="btn btn-icon waves-effect waves-light btn-success btn-xs m-b-5"> <i class="fa fa-pencil-square-o"></i></a>
                                                 <a href="" class="btn btn-icon waves-effect waves-light btn-info btn-xs m-b-5"> <i class="fa fa-trash"></i></a>
                                             </td>
                                         </tr>

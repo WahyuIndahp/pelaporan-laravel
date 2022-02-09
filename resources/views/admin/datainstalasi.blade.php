@@ -90,7 +90,7 @@
                         <div class="col-sm-12">
                             <div class="card-box table-responsive">
                                 <div class="m-b-30">
-                                    <a href="/fdatal"  type="button" class="btn btn-primary"><i class="fa fa-plus"> </i> Tambah
+                                    <a href="/formdataladmin"  type="button" class="btn btn-primary"><i class="fa fa-plus"> </i> Tambah
                                         Instalasi</a>
                                 </div>
                                 <table id="datatable-responsive"
@@ -114,8 +114,8 @@
                                             <td>Edinburgh</td>
                                             <td><span class="label label-pink">Baru</span></td>
                                             <td class="actions">
-                                                <a href="/edatal" class="btn btn-icon waves-effect waves-light btn-success btn-xs m-b-5"> <i class="fa fa-pencil-square-o"></i> <span> Edit</span></a>
-                                                <a href="/detaildatal" class="btn btn-icon waves-effect waves-light btn-info btn-xs m-b-5"> <i class="fa fa-eye"></i> <span> Detail</span></a>
+                                                <a href="/editdataladmin" class="btn btn-icon waves-effect waves-light btn-success btn-xs m-b-5"> <i class="fa fa-pencil-square-o"></i> <span> Edit</span></a>
+                                                <a href="/detaildataladmin" class="btn btn-icon waves-effect waves-light btn-info btn-xs m-b-5"> <i class="fa fa-eye"></i> <span> Detail</span></a>
                                             </td>
                                         </tr>
                                     </tbody>

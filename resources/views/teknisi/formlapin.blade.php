@@ -300,10 +300,10 @@
 
                                             <div class="form-group m-b-0 m-t-40">
                                                 <div class="col-sm-offset-4">
-                                                    <a href="/lapin" type="submit"
+                                                    <a href="/viewlapinteknisi" type="submit"
                                                     class="btn btn-default waves-effect waves-light"><i
                                                     class="fa fa-thumb-tack" aria-hidden="true"></i> Draft</a>
-                                                    <a href="/lapin" type="submit"
+                                                    <a href="/viewlapinteknisi" type="submit"
                                                     class="btn btn-info waves-effect waves-light"><i
                                                     class="fa fa-floppy-o" aria-hidden="true"></i> Simpan</a>
                                                 </div>

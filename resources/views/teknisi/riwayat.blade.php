@@ -87,7 +87,7 @@
                     <div class="row">
                         <div class="col-md-12">
                             <div class="m-b-30">
-                                <a href="/ftiket" type="button" class="btn btn-primary"><i class="fa fa-back"> </i>
+                                <a href="/formtiketteknisi" type="button" class="btn btn-primary"><i class="fa fa-back"> </i>
                                     Back</a>
                             </div>
                             <div class="panel panel-default">

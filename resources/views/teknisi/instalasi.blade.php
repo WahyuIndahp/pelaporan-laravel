@@ -108,7 +108,7 @@
                                                 <a href="" class="btn btn-icon waves-effect waves-light btn-danger btn-xs m-b-5" data-toggle="modal" data-target="#dialog"> <i class="fa fa-tasks"></i> <span> Kerjakan</span></a>
                                             </td>
                                             <td class="actions">
-                                                <a href="/detaildataltns" class="btn btn-icon waves-effect waves-light btn-info btn-xs m-b-5"> <i class="fa fa-eye"></i> <span> Detail</span></a>
+                                                <a href="/detaildatalteknisi" class="btn btn-icon waves-effect waves-light btn-info btn-xs m-b-5"> <i class="fa fa-eye"></i> <span> Detail</span></a>
                                             </td>
                                         </tr>
                                     </tbody>

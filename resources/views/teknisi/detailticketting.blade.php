@@ -88,7 +88,7 @@
                 <div class="container">
                     <div class="row">
                         <div class="m-b-30">
-                            <a href="/tiket" type="button" class="btn btn-primary"><i class="fa fa-back"> </i>
+                            <a href="/viewtiketteknisi" type="button" class="btn btn-primary"><i class="fa fa-back"> </i>
                                 Back</a>
                         </div>
                         <div class="col-sm-10 col-sm-offset-1 ">

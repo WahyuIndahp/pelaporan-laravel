@@ -87,7 +87,7 @@
                         <div class="col-sm-12">
                             <div class="card-box table-responsive">
                                 <div class="m-b-30">
-                                    <a href="/flapin"  type="button" class="btn btn-primary"><i class="fa fa-plus"> </i> Buat Laporan</a>
+                                    <a href="/formlapinteknisi"  type="button" class="btn btn-primary"><i class="fa fa-plus"> </i> Buat Laporan</a>
                                 </div>
                                 <table id="datatable-responsive"
                                     class="table table-striped table-bordered dt-responsive nowrap" cellspacing="0"
@@ -111,10 +111,10 @@
                                             <td>System Architect</td>
                                             <td>Edinburgh</td>
                                             <td class="actions">
-                                                <a href="/dlapin" class="btn btn-icon waves-effect waves-light btn-success btn-xs m-b-5"> <i class="fa fa-tasks"></i> <span> Selesai</span></a>
+                                                <a href="" class="btn btn-icon waves-effect waves-light btn-success btn-xs m-b-5"> <i class="fa fa-tasks"></i> <span> Selesai</span></a>
                                             </td>
                                             <td class="actions">
-                                                <a href="/dlapin" class="btn btn-icon waves-effect waves-light btn-info btn-xs m-b-5"> <i class="fa fa-eye"></i> <span> Lihat Detail</span></a>
+                                                <a href="/detaillapinteknisi" class="btn btn-icon waves-effect waves-light btn-info btn-xs m-b-5"> <i class="fa fa-eye"></i> <span> Lihat Detail</span></a>
                                             </td>
                                         </tr>
                                     </tbody>

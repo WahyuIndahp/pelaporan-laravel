@@ -110,7 +110,7 @@
                                             <td>System Architect</td>
                                             <td><span class="label label-pink">Pending</span></td>
                                             <td class="actions">
-                                                <a href="/detailtiket"
+                                                <a href="/detailtiketteknisi"
                                                     class="btn btn-icon waves-effect waves-light btn-info btn-xs m-b-5">
                                                     <i class="fa fa-eye"></i> <span> Detail</span></a>
                                                 <a href=""
@@ -150,7 +150,7 @@
                         <div class="row m-t-20">
                             <div class="modal-footer">
                                 <form>
-                                    <a href="/ftiket" type="button" class="btn btn-primary"> Ya</a>
+                                    <a href="/formtiketteknisi" type="button" class="btn btn-primary"> Ya</a>
                                 </form> <br>
                                 <form action="">
                                     <button id="dialogCancel" class="btn btn-default waves-effect">Tidak</button>

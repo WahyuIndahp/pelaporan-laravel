@@ -25,131 +25,142 @@ Route::get('/login', function () {
     return view('login');
 });
 
-Route::get('/admtr', function () {
-    return view('administrator');
+//administrator
+Route::resource('/viewadmtr', App\Http\Controllers\AdminController::class);
+
+Route::get('/editadmtr', function () {
+    return view('administrator.editadministrator');
 });
 
-Route::get('/eadmtr', function () {
-    return view('editadministrator');
+Route::get('/formuser', function () {
+    return view('administrator.formuser');
 });
+//
 
+//edit profile user
 Route::get('/eduser', function () {
     return view('edituser');
 });
+//
 
-Route::get('/fuser', function () {
-    return view('formuser');
-});
-
-Route::get('/datal', function () {
+//admin
+Route::get('/viewdataladmin', function () {
     return view('admin.datainstalasi');
 });
 
-Route::get('/edatal', function () {
-    return view('admin.editdatal');
-});
-
-Route::get('/detaildatal', function () {
-    return view('admin.detaildatal');
-});
-
-Route::get('/detaildataltns', function () {
-    return view('teknisi.detaildataltns');
-});
-
-Route::get('/instal', function () {
-    return view('teknisi.instalasi');
-});
-
-Route::get('/fdatal', function () {
+Route::get('/formdataladmin', function () {
     return view('admin.formdatal');
 });
 
-Route::get('/fdating', function () {
-    return view('admin.formdating');
+Route::get('/editdataladmin', function () {
+    return view('admin.editdatal');
 });
 
-Route::get('/edating', function () {
-    return view('admin.editdating');
+Route::get('/detaildataladmin', function () {
+    return view('admin.detaildatal');
 });
 
-Route::get('/dating', function () {
+Route::get('/viewdatingadmin', function () {
     return view('admin.dataticketing');
 });
 
-Route::get('/riwayat', function () {
-    return view('teknisi.riwayat');
+Route::get('/formdatingadmin', function () {
+    return view('admin.formdating');
 });
 
-
-Route::get('/lapin', function () {
-    return view('teknisi.laporaninstalasi');
-});
-
-Route::get('/dlapin', function () {
-    return view('teknisi.detaillapin');
-});
-
-Route::get('/dlapinp', function () {
-    return view('programmer.detaillapin');
-});
-
-Route::get('/dlapinm', function () {
-    return view('manager.detaillapin');
-});
-
-Route::get('/flapin', function () {
-    return view('teknisi.formlapin');
-});
-
-Route::get('/penginstalan', function () {
-    return view('programmer.datapenginstalan');
-});
-
-Route::get('/penginstalan', function () {
-    return view('manager.datapenginstalan');
-});
-
-Route::get('/tiket', function () {
-    return view('teknisi.ticketting');
-});
-
-Route::get('/lating', function () {
-    return view('laporanticketing');
-});
-
-Route::get('/lapting', function () {
-    return view('manager.lapticketing');
-});
-
-Route::get('/detailtiket', function () {
-    return view('teknisi.detailticketting');
-});
-
-Route::get('/detailtiketadm', function () {
+Route::get('/detailtiketadmin', function () {
     return view('admin.detailticketingadm');
 });
 
-Route::get('/mnjlating', function () {
-    return view('manager.detailticketingmnj');
+Route::get('/editdatingadmin', function () {
+    return view('admin.editdating');
+});
+//
+
+//teknisi
+Route::get('/viewdatalteknisi', function () {
+    return view('teknisi.instalasi');
 });
 
-Route::get('/detaillating', function () {
-    return view('detaillating');
+Route::get('/detaildatalteknisi', function () {
+    return view('teknisi.detaildataltns');
 });
 
-Route::get('/ftiket', function () {
+Route::get('/viewlapinteknisi', function () {
+    return view('teknisi.laporaninstalasi');
+});
+
+Route::get('/formlapinteknisi', function () {
+    return view('teknisi.formlapin');
+});
+
+Route::get('/detaillapinteknisi', function () {
+    return view('teknisi.detaillapin');
+});
+
+Route::get('/viewtiketteknisi', function () {
+    return view('teknisi.ticketting');
+});
+
+Route::get('/detailtiketteknisi', function () {
+    return view('teknisi.detailticketting');
+});
+
+Route::get('/formtiketteknisi', function () {
     return view('teknisi.formticketting');
 });
 
-Route::get('/grafik', function () {
+Route::get('/viewriwayat', function () {
+    return view('teknisi.riwayat');
+});
+//
+
+//programmer
+Route::get('/viewlapinprogrammer', function () {
+    return view('programmer.datapenginstalan');
+});
+
+Route::get('/detaillapinprogrammer', function () {
+    return view('programmer.detaillapin');
+});
+//
+
+//manager
+Route::get('/viewlapinmanager', function () {
+    return view('manager.datapenginstalan');
+});
+
+Route::get('/detaillapinmanager', function () {
+    return view('manager.detaillapin');
+});
+
+Route::get('/viewlaptickmanager', function () {
+    return view('manager.lapticketing');
+});
+
+Route::get('/detaillaptickmanager', function () {
+    return view('manager.detailticketingmnj');
+});
+
+Route::get('/viewgrafik', function () {
     return view('manager.grafik');
+});
+//
+
+//logout
+Route::get('/logout', function () {
+    return view('login');
+});
+//
+
+Route::get('/detaillating', function () {
+    return view('detaillating');
 });
 
 Route::get('/coba', function () {
     return view('coba');
 });
 
-Route::get('/logout', function () {
-    return view('login');
+Route::get('/lating', function () {
+    return view('laporanticketing');
 });

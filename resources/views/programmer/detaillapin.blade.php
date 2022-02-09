@@ -92,7 +92,7 @@
                     <div class="row">
                         <div class="col-sm-11 ">
                             <div class="m-b-30">
-                                <a href="/penginstalan" type="button" class="btn btn-primary"><i class="fa fa-back"> </i>
+                                <a href="/viewlapinprogrammer" type="button" class="btn btn-primary"><i class="fa fa-back"> </i>
                                     Back</a>
                             </div>
                             <div class="card-box task-detail col-sm-offset-1">
